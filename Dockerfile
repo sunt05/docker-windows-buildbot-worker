@@ -1,8 +1,8 @@
 # escape=`
 
-ARG BASE_TAG=py3_1803
+ARG BASE_TAG=latest
 
-FROM mback2k/windows-python:${BASE_TAG}
+FROM sunt05/windows-python:${BASE_TAG}
 
 RUN net user Buildbot /add
 
